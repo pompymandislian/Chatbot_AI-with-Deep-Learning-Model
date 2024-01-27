@@ -1,0 +1,334 @@
+{
+    "intents": [
+        {
+            "tag": "perusahaan",
+            "request": ["perusahaan apa ini?", "perusahaan zenithera ini apa?", "perusahaan PT zenithera kreasi ini apa?"],
+            "responses": ["PT. Zenithera Kreasi adalah startup riset dan konsultasi yang berfokus pada data dan teknologi luas. Didirikan sebagai ZENITH pada tahun 2023, kami memiliki beberapa layanan business-to-business (B2B) business to Government (B2G), di bidang: Business dan Data"]
+        },
+        {
+            "tag": "salam",
+            "request": ["Hallo", "Hi", "Hi buddy!", "Saya mau tanya?", "Saya tanya", "Tanya dong!"],
+            "responses": ["Hi Tuan", "iya ada apa", "tanya apa", "bisa saya bantu?"]
+        },
+        {
+            "tag": "produk",
+            "request": ["jelaskan produk", "aku ingin tau product yang ada", "apakah ada produk tentang IT?"],
+            "responses": ["kami memiliki produk tentang data, business, dan IT", "kami bisa menyelesaikan masalah anda dengan data"]
+        },
+        {
+            "tag": "bingung",
+            "request": ["Bingung nih","masih belum mengerti", "belum paham", "kurang jelas"],
+            "responses": ["bagian mana yang masih bingung", "apa yang perlu diperjelas", "apa yang anda bingungkan", "saya akan membantu anda agar lebih paham", "baik saya akan buat anda mengerti"]
+        },
+        {
+            "tag": "produk2",
+            "request": ["jasa apa aja yang ada disini?", "jual apa disini?", "konsultasi apa aja yang ada disini?", "apa saja yang dijual"],
+            "responses": ["kami menjual produk layanan data, business, dan IT"]
+        },
+        {
+            "tag": "data",
+            "request": ["jelaskan produk data", "aku penasaran tentang produk data", "data ada apa aja"],
+            "responses": ["kami menjual jasa Data Entry & Database Administration, Data Analytics, Data Engineering, dan Machine Learning & Artificial Intelligence"]
+        },
+        {
+            "tag": "business",
+            "request": ["jelaskan produk business", "aku penasaran tentang produk business", "business ada apa aja"],
+            "responses": ["kami menjual jasa solving business tentang Corporate Business Strategy, Environment, Organization and People Strategy, dan Customer Insight Analysis"]
+        },
+        {
+            "tag": "IT",
+            "request": ["apakah disini dapat membuat website atau software?", "Saya mau membuat website", "saya ingin membuat software", "saya perlu membuat website di perusahaan kami", "aku perlu membuat software untuk kebutuhan perusahaan"],
+            "responses": ["Kami dapat membuatkan website untuk anda", "kami dapat membuatkan software untuk anda", "tentu saja, kami dapat membuatnya"]
+        },
+        {
+            "tag": "produk3",
+            "request": ["jasa ini dijual dalam bentuk apa?", "dijual seperti apa produk ini?", "aku ingin tau jenis konsultasinya", "jenis konsultasi seperti apa disini?"],
+            "responses": ["Kami menjual jasa ini dalam bentuk konsultasi permasalahaan, konsultasi tools, dan pembuatan sistem atau project"]
+        },
+        {
+            "tag": "produkdataentry",
+            "request": ["jelaskan tentang Data Entry & Database Administration", "aku penasaran tentang Data Entry & Database Administration", "produk Data Entry & Database Administration maksudnya apa ya?"],
+            "responses": ["kami menawarkan jasa Data Entry Service dan Data Reporting Service"]
+        },
+        {
+            "tag": "dataentryservice",
+            "request": ["Apa yang dimaksud Data Entry Service?", "jelaskan lebih detail tentang Data Entry Service", "saya masih belum mengerti tentang Data Entry Service"],
+            "responses": ["Data Entry Service terdiri dari Data Digitization and Conversion, Data Entry with Microsoft Excel and Spreadsheet, dan Data Entry with Database"]
+        },
+        {
+            "tag": "Digitization",
+            "request": ["Apa yang dimaksud dengan Data Digitization and Conversion?", "Jelaskan tentang Data Digitization and Conversion", "Data Digitization and Conversion?"],
+            "responses": ["Data Digitization and Conversion adalah Mengubah informasi dari bentuk fisik atau analog menjadi format digital untuk penyimpanan, pengelolaan, dan akses yang lebih efisien"]
+        },
+        {
+            "tag": "dataentry",
+            "request": ["Apa itu Data Entry with Microsoft Excel and Spreadsheet?", "Apa yang dimaksud Data Entry with Microsoft Excel and Spreadsheet", "Data Entry with Microsoft Excel and Spreadsheet?"],
+            "responses": ["Data Entry with Microsoft Excel and Spreadsheet adalah Menginput dan mengatur data dalam perangkat lunak Excel atau aplikasi spreadsheet serupa untuk memfasilitasi analisis data, penghitungan, dan pelaporan (misal: VBA / Makro Excel)"]
+        },
+        {
+            "tag": "dataentrydatabase",
+            "request": ["Apa itu Data Entry with Database?", "Apa yang dimaksud Data Entry with Database", "Data Entry with Database?"],
+            "responses": ["Data Entry with Database adalah Entri data dengan basis data melibatkan masukan informasi ke dalam sistem elektronik terstruktur untuk penyimpanan, pengambilan, dan pengelolaan yang terorganisir"]
+        },
+        {
+            "tag" : "DataReportingService",
+            "request" : ["Apa yang dimaksud Data Reporting Service?", "jelaskan lebih detail tentang Data Reporting Service", "saya masih belum mengerti tentang Data Reporting Service"],
+            "responses" : ["Data Reporting Service terdiri dari Finance Reporting, HR and Payroll Reporting, dan Custom Reporting"]
+        },
+        {
+            "tag" : "FinanceReporting", 
+            "request": ["Apa yang dimaksud dengan Finance Reporting?", "Jelaskan tentang Finance Reporting", "Finance Reporting?"],
+            "responses" : ["Finance Reporting adalah Pembuatan dan penyajian data keuangan untuk menilai status keuangan organisasi"]
+        },
+        {
+            "tag" : "HRandPayrollReporting",
+            "request" : ["Apa yang dimaksud dengan HR and Payroll Reporting?", "Jelaskan tentang HR and Payroll Reporting", "HR and Payroll Reporting?"],
+            "responses" : ["Kompilasi dan penyajian data terkait karyawan untuk manajemen tenaga kerja dan pemrosesan penggajian yang efektif"]
+        },
+        {
+            "tag" : "CustomReporting",
+            "request" : ["Apa yang dimaksud dengan Custom Reporting?", "Jelaskan tentang Custom Reporting", "Custom Reporting?"],
+            "responses" : ["Membuat laporan data yang disesuaikan untuk memenuhi persyaratan spesifik dan unik seperti kepuasan pelanggan dan kecerdasan bisnis"]
+        },
+        {
+            "tag" : "DataAnalyticsSolution",
+            "request" : ["Apa yang dimaksud Data Analytics Solution?", "jelaskan lebih detail tentang Data Analytics Solution", "saya masih belum mengerti tentang Data Analytics Solution"],
+            "responses" : ["Data Analytics Solution terdiri dari Data Analytic & Research Consulting dan End to End Problem Solving Analysis"]
+        },
+        {
+            "tag" : "DataAnalytic&ResearchConsulting",
+            "request" : ["Apa yang dimaksud dengan Data Analytic & Research Consulting?", "Jelaskan tentang Data Analytic & Research Consulting", "Data Analytic & Research Consulting?"],
+            "responses" : ["Data Analytic & Research Consulting adalah sebuah konsultasi berkaitan dengan tools data analytics seperti dashboard ataupun konsultasi secara personal dengan konsultan yang dihitung berdasarkan waktu"]
+        },
+        {
+            "tag" : "tools",
+            "request" : ["seperti apa itu konsultasi tools analytics?", " apa yang dimaksud konsultasi tools analytics?", "konsultasi tools apa yang dimaksud di analytics?"],
+            "responses" : ["kami akan memberikan saran dan mengimplementasikan alat visualisasi data seperti Tableau, Power BI, dll."]
+        },
+        {
+            "tag" : "ProblemSolvingConsulting",
+            "request" : ["seperti apa itu Problem Solving Consulting?", "apa yang dimaksud Problem Solving Consulting?", "Problem Solving Consulting apa yang dimaksud di analytics?"],
+            "responses" : ["Problem Solving Consulting berfokus pada pengembangan solusi yang disesuaikan untuk mengatasi masalah dan tantangan terkait data dalam organisasi Anda."]
+        },
+        {
+            "tag" : "EndtoEndProblemSolvingAnalysis",
+            "request" : ["seperti apa konsultasi End to End Problem Solving Analysis", "apa yang dimaksud End to End Problem Solving Analysis?", "Bagaimana step by step End to End Problem Solving Analysis?, Bagaimana cara kerja konsultasi End to End Problem Solving Analysis"],
+            "responses" : ["Kami akan melayani Anda melalui proses ujung ke ujung : FGD / Team Analysis, Gap Analysis, Data Preparation, Problem Analysis  (Ex : Dashboard), Report , Recommendation, Performance Consulting"]
+        },
+        {
+            "tag": "FGD",
+            "request": [
+                    "Bagaimana cara pelaksanaan Focus Group Discussion?",
+                    "Apa tujuan dari Focus Group Discussion?",
+                    "Siapa yang sebaiknya terlibat dalam FGD?",
+                    "Bagaimana cara menganalisis hasil FGD?"
+                ],
+            "responses": [
+                    "Focus Group Discussion (FGD) adalah suatu teknik pengumpulan data melalui diskusi kelompok terarah. Tujuan utama FGD adalah mendapatkan wawasan mendalam dari perspektif peserta terkait suatu topik tertentu.",
+                    "Tujuan dari Focus Group Discussion melibatkan pemahaman lebih baik terhadap pandangan, pendapat, dan pengalaman peserta terkait dengan suatu topik kajian.",
+                    "Dalam FGD sebaiknya melibatkan peserta yang memiliki pengalaman atau pengetahuan yang relevan dengan topik diskusi. Biasanya terdiri dari 6-10 peserta yang dipandu oleh seorang moderator.",
+                    "Pelaksanaan FGD melibatkan moderator yang memandu diskusi, mencatat hasil diskusi, dan peserta yang memberikan pandangan serta pendapat mereka. Hasil dari FGD kemudian dapat dianalisis untuk mendapatkan pemahaman mendalam terkait dengan topik yang dibahas."
+                ]
+        },
+        {
+            "tag": "datapreparation",
+            "request": ["Apa yang dimaksud dengan persiapan data?", "Bagaimana tahapan data preparation dilakukan?", "Apa saja tujuan dari data preparation?"],
+            "responses": ["Data preparation adalah proses mempersiapkan dan membersihkan data untuk analisis lebih lanjut. Tahapan data preparation melibatkan pengumpulan, pembersihan, transformasi, dan integrasi data.", "Tahapan data preparation mencakup pemilihan data yang relevan, identifikasi dan penanganan data yang hilang atau tidak valid, penghapusan duplikasi, serta transformasi format data jika diperlukan.", "Tujuan dari data preparation adalah meningkatkan kualitas data, mengurangi kesalahan, dan memastikan data siap untuk digunakan dalam analisis atau pemodelan."]
+        },
+        {
+            "tag": "GapAnalysis",
+            "request": [
+                "Apa itu Gap Analysis?",
+                "Bagaimana cara melakukan Gap Analysis?",
+                "Apa peran Gap Analysis dalam proses pengembangan atau perbaikan?",
+                "Apa langkah-langkah yang terlibat dalam Gap Analysis?"
+            ],
+            "responses": [
+                "Gap Analysis adalah proses perbandingan antara keadaan saat ini (current state) dengan keadaan yang diinginkan (desired state) untuk mengidentifikasi perbedaan atau 'kesenjangan' (gap) di antara keduanya.",
+                "Cara melakukan Gap Analysis melibatkan langkah-langkah seperti mengidentifikasi tujuan atau standar yang diinginkan, menilai kondisi saat ini, dan menganalisis perbedaan di antara keduanya.",
+                "Gap Analysis memainkan peran penting dalam menentukan area-area di mana perbaikan atau pengembangan diperlukan untuk mencapai tujuan yang diinginkan.",
+                "Langkah-langkah dalam Gap Analysis melibatkan pengumpulan data, evaluasi, identifikasi gap, dan perumusan rencana tindakan untuk mengatasi kesenjangan yang teridentifikasi."
+            ]            
+        },
+        {
+            "tag": "ProblemAnalysis",
+            "request": [
+                "Apa yang dimaksud dengan Problem Analysis?",
+                "Bagaimana Dashboard dapat digunakan dalam analisis masalah?",
+                "Apa manfaat menggunakan Dashboard dalam proses analisis?",
+                "Bagaimana langkah-langkah Problem Analysis dengan menggunakan Dashboard?"
+            ],
+            "responses": [
+                "Problem Analysis adalah proses identifikasi, analisis, dan pemecahan masalah yang mungkin muncul dalam suatu konteks atau organisasi.",
+                "Dashboard adalah alat visual yang dapat digunakan dalam analisis masalah untuk mempresentasikan data secara efektif. Dashboard menyajikan informasi secara intuitif dan memungkinkan pengguna untuk melihat tren, pola, dan perbandingan dengan cepat.",
+                "Manfaat menggunakan Dashboard dalam analisis masalah meliputi kemampuan untuk dengan cepat mengidentifikasi masalah, memahami dampaknya, dan membuat keputusan berdasarkan informasi yang tersedia.",
+                "Langkah-langkah Problem Analysis dengan menggunakan Dashboard melibatkan pemilihan indikator kunci, pemantauan data secara real-time, identifikasi tren atau anomali, dan pengambilan tindakan berdasarkan temuan analisis."
+            ]
+         },
+         {
+            "tag": "Report",
+            "request": [
+                "Apa itu proses Report hasil analisis?",
+                "Bagaimana melibatkan dashboard dalam Report hasil analisis?",
+                "Apa manfaat dari penggunaan dashboard dalam proses Report?"
+            ],
+            "responses": [
+                "Proses pelaporan hasil analisis melibatkan penyusunan dan penyajian informasi yang ditemukan selama analisis, biasanya dalam bentuk laporan atau presentasi.",
+                "Menggunakan dashboard dalam pelaporan hasil analisis memungkinkan visualisasi data yang efektif dan memberikan gambaran menyeluruh tentang temuan analisis. Dashboard dapat digunakan untuk mengomunikasikan informasi secara jelas dan mudah dipahami.",
+                "Manfaat dari penggunaan dashboard dalam pelaporan termasuk kemampuan untuk menyajikan data secara dinamis, memfasilitasi pengambilan keputusan berdasarkan informasi real-time, dan meningkatkan transparansi dalam menyampaikan hasil analisis."
+            ]
+        },
+        {
+            "tag": "Recommendation",
+            "request": [
+                "Bagaimana rekomendasi disusun setelah melakukan analisis?",
+                "Apa tujuan dari memberikan rekomendasi setelah analisis?",
+                "Apa langkah-langkah dalam menyusun rekomendasi berdasarkan hasil analisis?"
+            ],
+            "responses": [
+                "Rekomendasi disusun setelah melakukan analisis dengan fokus pada meningkatkan kinerja bisnis, mengoptimalkan proses, atau mengatasi hambatan yang ditemukan.",
+                "Tujuan memberikan rekomendasi setelah analisis adalah untuk memberikan panduan kepada pemangku kepentingan bisnis dalam mengambil keputusan strategis yang dapat meningkatkan profitabilitas, efisiensi, atau keunggulan kompetitif.",
+                "Langkah-langkah dalam menyusun rekomendasi berdasarkan hasil analisis melibatkan identifikasi peluang atau tantangan bisnis, penilaian solusi yang relevan, dan penyusunan rencana tindakan yang dapat diimplementasikan secara efektif, Contoh, setelah menganalisis data penjualan, direkomendasikan untuk meningkatkan strategi pemasaran digital guna menargetkan pasar yang lebih luas. Hal ini dapat dilakukan dengan memperkuat kehadiran online, memanfaatkan media sosial, dan menyesuaikan kampanye iklan untuk menarik pelanggan potensial"
+            ]
+        },
+        {
+            "tag": "performanceconsulting",
+            "request": [
+                "Apa yang dimaksud dengan performance consulting?",
+                "Apa itu performance consulting?",
+                "Bagaimana cara kerja performance consulting?"
+            ],
+            "responses": [
+                "Performance Consulting adalah suatu pendekatan holistik yang tidak hanya memberikan rekomendasi, tetapi juga melibatkan identifikasi, analisis, dan perbaikan terhadap berbagai aspek yang dapat meningkatkan kinerja suatu organisasi atau individu.",
+                "Performance Consulting tidak hanya terbatas pada memberikan solusi atau rekomendasi, tetapi juga melibatkan upaya dalam menilai dan meningkatkan faktor-faktor yang memengaruhi kinerja, termasuk proses, kebijakan, budaya organisasi, dan kemampuan individu.",
+                "Cara kerja performance consulting melibatkan kolaborasi yang erat antara konsultan dan klien untuk mengidentifikasi masalah kinerja, menganalisis penyebabnya, dan merancang solusi yang dapat diterapkan secara efektif untuk mencapai hasil yang diinginkan."
+            ]            
+        },
+        {
+            "tag": "DataEngineeringService",
+            "request": [
+                "Apa yang dimaksud Data Engineering Service?", 
+                "Apa saja jasa yang diberikan Data Engineering Service?",
+                "Jelaskan terkait Data Engineering Service!"
+            ],
+            "responses": [
+                "Kami akan meningkatkan bisnis Anda melalui: Kelola data Anda dengan lancar (Dbeaver), Membuat arsitektur yang disesuaikan dengan kebutuhan spesifik Anda, Sederhanakan aliran data Anda (ETL) Contoh: Airflow, Apache, nifi, Hitung dan simpan data Anda di GCP, Pastikan integritas data (bersih dan tervalidasi), sehingga Anda dapat membuat pengambilan keputusan yang akurat dan andal."
+            ]
+        },
+        {
+            "tag": "Arsitektur",
+            "request": ["Apa yang dimaksud arsitektur", "arsitektur seperti apa yang dimaksud", "jelaskan terkait arsitektur"],
+            "responses": [
+                "Arsitektur dalam konteks Data Engineering Service merujuk pada rancangan dan struktur keseluruhan sistem untuk mengelola dan memproses data. Arsitektur ini mencakup komponen seperti penyimpanan data (misalnya: Google Cloud Storage), platform untuk eksekusi ETL (Extract, Transform, Load) seperti Apache Airflow, serta alat-alat lainnya seperti Apache NiFi.",
+                "Arsitektur Data Engineering Service dirancang untuk memastikan ketersediaan, keandalan, dan skalabilitas sistem dalam mengelola data. Dengan memiliki arsitektur yang kokoh, Anda dapat memastikan bahwa data diolah dengan efisien, integritasnya tetap terjaga, dan dapat diakses dengan mudah untuk keperluan analisis dan pengambilan keputusan."
+            ]
+        },
+        {
+            "tag": "ETL",
+            "request": ["ETL itu apa?", "Jasa seperti apa yang diberikan untuk ETL?", "Untuk apa ETL?"],
+            "responses": [
+                "ETL adalah singkatan dari Extract, Transform, Load. Ini merupakan proses fundamental dalam Data Engineering Service.",
+                "Jasa ETL melibatkan pengambilan data dari berbagai sumber (Extract), melakukan transformasi pada data untuk memastikan kebersihan, validitas, dan struktur yang sesuai (Transform), serta memuat data yang sudah diolah ke dalam penyimpanan yang sesuai seperti data warehouse atau database (Load).",
+                "Proses ETL sangat penting untuk memastikan bahwa data yang dihasilkan atau disimpan dalam suatu sistem memiliki kualitas yang baik, terstruktur dengan benar, dan siap digunakan untuk analisis bisnis atau keperluan pengambilan keputusan.",
+                "Jasa ETL dapat mencakup penggunaan alat seperti Apache Airflow, Apache NiFi, atau alat lainnya yang mendukung aliran kerja ETL secara efisien dan dapat disesuaikan dengan kebutuhan khusus pelanggan."
+            ]
+        },
+        {
+            "tag": "Validasidata",
+            "request": ["Apa itu validasi data?", "Jasa seperti apa itu validasi data", "Gimana caranya validasi data?"],
+            "responses": [
+                "Validasi data adalah proses memastikan bahwa data yang dimiliki oleh suatu sistem memenuhi kriteria kualitas tertentu dan sesuai dengan standar yang ditetapkan.",
+                "Jasa validasi data dalam Data Engineering Service melibatkan penerapan aturan dan skenario validasi untuk memeriksa keakuratan, kelengkapan, dan konsistensi data. Hal ini dapat mencakup pemeriksaan format, batasan nilai, atau konsistensi relasional antar data.",
+                "Proses validasi data dilakukan menggunakan algoritma atau aturan bisnis yang telah ditentukan sebelumnya. Jasa ini bertujuan untuk memastikan bahwa data yang digunakan dalam pengambilan keputusan atau analisis bisnis adalah data yang dapat diandalkan dan akurat.",
+                "Metode validasi data dapat bervariasi tergantung pada kebutuhan bisnis, dan dapat melibatkan penggunaan perangkat lunak khusus, skrip otomatis, atau alat validasi data yang terintegrasi dalam alur kerja ETL (Extract, Transform, Load)."
+            ]
+        },
+        {
+            "tag": "streamlinedata",
+            "request": ["Apa itu data streamline", "Untuk apa data streamline", "Gimana si konsultasi data streamline"],
+            "responses": [
+                "Data streamline merujuk pada proses penyederhanaan aliran data agar menjadi lebih efisien, terstruktur, dan mudah diakses.",
+                "Tujuan dari data streamline adalah untuk meningkatkan efisiensi operasional, memastikan integritas data, dan memungkinkan akses yang cepat dan mudah untuk keperluan analisis bisnis.",
+                "Jasa konsultasi data streamline melibatkan penilaian dan perancangan ulang alur kerja data untuk mengidentifikasi area-area di mana efisiensi dapat ditingkatkan. Ini bisa mencakup penyesuaian struktur penyimpanan data, optimisasi proses ETL, atau penggunaan alat-alat khusus yang mendukung aliran data yang lebih efisien.",
+                "Konsultasi data streamline juga melibatkan analisis kebutuhan bisnis untuk memastikan bahwa aliran data yang disesuaikan sesuai dengan tujuan bisnis dan strategi perusahaan.",
+                "Proses konsultasi ini dapat melibatkan kolaborasi dengan pemangku kepentingan bisnis, analisis tren data, dan penerapan perubahan yang dibutuhkan untuk mencapai tujuan streamline data yang diinginkan."
+            ]
+        },
+        {
+            "tag": "MachineLearning",
+            "request": ["Jasa seperti apa itu machine learning?", "Apa yang ditawarkan penggunaan machine learning?", "Untuk apa perusahaan membutuhkan machine learning?"],
+            "responses": [
+                "Jasa machine learning mencakup penerapan teknik-teknik komputasi untuk memungkinkan sistem belajar dan meningkatkan kinerjanya seiring waktu tanpa pemrograman ekspisit.",
+                "Penggunaan machine learning menawarkan kemampuan untuk menganalisis data besar-besaran, mengidentifikasi pola, dan membuat prediksi atau keputusan berdasarkan pembelajaran dari pengalaman sebelumnya.",
+                "Perusahaan membutuhkan machine learning untuk meningkatkan efisiensi operasional, mengoptimalkan proses bisnis, dan mendapatkan wawasan berharga dari data yang mereka miliki.",
+                "Dengan machine learning, perusahaan dapat mengotomatiskan tugas-tugas repetitif, meningkatkan presisi dalam analisis data, dan memberikan dukungan dalam pengambilan keputusan berbasis data.",
+                "Penggunaan machine learning juga dapat membantu perusahaan mengidentifikasi peluang baru, mengoptimalkan strategi pemasaran, dan meningkatkan pengalaman pelanggan."
+            ]
+        },
+        {
+            "tag": "mlproduk",
+            "request": ["machine learning apa yang dapat dibuat di perusahaan ini?", "jasa machine learning apa saja yang diberikan?"],
+            "responses": ["kami menawarkan machine learning terkait Marketing and Customer Analysis by ML, Fraud or Anomaly Detection by ML, Chatbot AI, dll"]
+        },
+        {
+            "tag": "MLlain",
+            "request": ["Apakah bisa membuat machine learning yang lain?", "Apakah bisa selain machine learning yang ditawarkan?", "Apakah bisa machine learning lainnya?"],
+            "responses": [
+                "Tentu, kami menyediakan layanan pembuatan machine learning yang dapat disesuaikan dengan kebutuhan khusus Anda. Kami memahami bahwa setiap perusahaan memiliki tantangan dan kebutuhan unik, dan kami siap untuk mengembangkan solusi machine learning yang dapat memberikan nilai tambah secara optimal.",
+                "Jika Anda memiliki kebutuhan khusus atau jenis machine learning tertentu yang tidak tercakup dalam produk standar kami, kami dapat bekerja sama dengan Anda untuk merancang dan mengimplementasikan solusi yang sesuai dengan kebutuhan spesifik perusahaan Anda.",
+                "Kami percaya pada pendekatan yang bersifat kolaboratif, di mana kami bekerja sama dengan pelanggan untuk memahami visi dan tujuan bisnis mereka, dan menghasilkan solusi machine learning yang dapat mengatasi tantangan yang dihadapi perusahaan dengan cara yang paling efektif.",
+                "Jangan ragu untuk berdiskusi dengan tim kami untuk mendapatkan solusi machine learning yang disesuaikan dan memberikan dampak positif bagi bisnis Anda."
+            ]
+        },
+        {
+            "tag": "Marketing and Customer Analysis by ML",
+            "request": ["Produk seperti apa Marketing and Customer Analysis by ML?", "Apa yang dimaksud Marketing and Customer Analysis by ML?", "Marketing and Customer Analysis by ML?"],
+            "responses": ["Kami menawarkan produk seperti Churn customer Analytics, Recommendation Product (Conjoint Analytics), A/B Testing Product"]
+        },
+        {
+            "tag": "churncustomeranalytics",
+            "request": ["Apa itu churn customer analytics?", "Apa yang dimaksud churn customer analytics?", "Churn customer analytics?"],
+            "responses": [
+                "Churn customer analytics merujuk pada analisis data untuk mengidentifikasi dan memahami pola serta faktor-faktor yang berkontribusi terhadap tingkat churn atau pemutusan hubungan dengan pelanggan.",
+                "Dalam konteks ini, 'churn' mengacu pada pelanggan yang berhenti menggunakan produk atau layanan perusahaan. Churn customer analytics bertujuan untuk memberikan wawasan mendalam tentang perilaku pelanggan yang mungkin menandakan potensi untuk berhenti berlangganan atau berhenti menggunakan produk.",
+                "Dengan menganalisis data pelanggan seperti pola penggunaan, perilaku pembelian, dan interaksi, perusahaan dapat mengidentifikasi indikator churn, memahami penyebabnya, dan mengambil langkah-langkah untuk mencegah atau mengurangi tingkat churn tersebut.",
+                "Churn customer analytics dapat melibatkan penggunaan berbagai metode analisis data, termasuk model machine learning untuk memprediksi potensi churn, sehingga perusahaan dapat mengambil tindakan pencegahan yang sesuai untuk mempertahankan pelanggan."
+            ]
+        },
+        {
+            "tag": "ConjointAnalytics",
+            "request": [
+                "Apa yang dimaksud Recommendation Product (Conjoint Analytics)?",
+                "Jelaskan terkait Recommendation Product (Conjoint Analytics)?",
+                "Recommendation Product (Conjoint Analytics)?"
+            ],
+            "responses": [
+                "Recommendation Product (Conjoint Analytics) adalah pendekatan analisis data yang digunakan untuk memberikan rekomendasi produk dengan memahami preferensi dan prioritas konsumen.",
+                "Dalam Conjoint Analytics, konsumen diberikan serangkaian pilihan produk dengan berbagai atribut yang bervariasi, dan mereka diminta untuk membuat preferensi. Melalui analisis data ini, kita dapat mengidentifikasi atribut produk mana yang lebih dihargai oleh konsumen.",
+                "Dengan memahami preferensi konsumen secara lebih mendalam, perusahaan dapat menghasilkan rekomendasi produk yang lebih sesuai dengan harapan dan kebutuhan pasar. Hal ini dapat meningkatkan kepuasan pelanggan, mengoptimalkan portofolio produk, dan membantu dalam pengembangan strategi pemasaran yang lebih efektif.",
+                "Penerapan Recommendation Product (Conjoint Analytics) dapat melibatkan teknik-teknik analisis data khusus, seperti analisis konjoint tradisional atau machine learning, untuk menghasilkan rekomendasi produk yang akurat dan berdampak positif pada strategi bisnis perusahaan."
+            ]
+        },
+        {
+            "tag": "A/BTesting",
+            "request": ["Apa yang dimaksud A/B Testing?", "Jelaskan terkait A/B Testing?", "A/B Testing?"],
+            "responses": [
+                "A/B Testing, juga dikenal sebagai split testing, adalah metode eksperimen dalam analisis data yang digunakan untuk membandingkan dua versi atau lebih dari suatu elemen dengan tujuan mengidentifikasi versi yang memberikan hasil yang lebih baik.",
+                "Dalam konteks bisnis dan pemasaran, A/B Testing sering digunakan untuk mengukur dampak perubahan pada elemen seperti halaman web, iklan, atau pesan email terhadap perilaku pengguna.",
+                "Proses A/B Testing melibatkan pembagian acak pengguna atau audiens menjadi dua atau lebih kelompok, di mana setiap kelompok melihat versi yang berbeda dari elemen yang diuji. Data hasil dari setiap kelompok kemudian dianalisis untuk menentukan performa relatif dari masing-masing versi.",
+                "A/B Testing membantu perusahaan mengambil keputusan berdasarkan data empiris, mengidentifikasi perubahan yang efektif, dan meningkatkan pengalaman pengguna atau hasil bisnis. Metode ini sering digunakan dalam pengoptimalan situs web, kampanye pemasaran, dan pengembangan produk."
+            ]
+        },
+        {
+            "tag": "AnomalyDetection",
+            "request": ["Apa yang dimaksud Fraud or Anomaly Detection?", "Jelaskan terkait Fraud or Anomaly Detection?", "Fraud or Anomaly Detection?"],
+            "responses": ["Mendeteksi penipuan atau manipulasi berdasarkan anomali yang menyebabkan kerugian di perusahaan Anda melibatkan penerapan sistem deteksi anomali yang kuat"]
+        },
+        {
+            "tag": "ChatbotAI",
+            "request": ["Apa yang dimaksud Chatbot AI?", "Jelaskan terkait Chatbot AI", "Chatbot AI?"],
+            "responses": ["Manfaatkan AI Chatbot untuk penjelasan produk yang cepat dan cerdas. Asisten otomatis secara efisien memperjelas detail produk, memastikan interaksi yang lancar dan efektif dengan pelanggan."]
+        }                                                      
+    ]
+    
+}
